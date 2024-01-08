@@ -289,13 +289,34 @@ body {
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
-   
+
 }
-.size{
+
+.size {
     text-align: center;
 }
-#kong{
-   
+
+#kong {
+
     font-size: large;
     color: #F00;
+}
+
+footer {
+    background: #070211;
+    width: 1600px;
+    height: 609px;
+    flex-shrink: 0;
+}
+.container-one{
+    display: flex;
+    color: #FFF;
+}
+.font-nine.font-ten{
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+}
+.font-ten{
+    text-align: end;
 }
