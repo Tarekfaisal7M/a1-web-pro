@@ -258,3 +258,44 @@ body {
 .photo-six {
     border-radius: 16px;
 }
+
+.background-xp {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 616px;
+    flex-shrink: 0;
+}
+
+.sajib {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.news {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.pox {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+   
+}
+.size{
+    text-align: center;
+}
+#kong{
+   
+    font-size: large;
+    color: #F00;
+}
