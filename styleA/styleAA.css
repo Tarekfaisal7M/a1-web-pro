@@ -62,31 +62,65 @@ body {
 }
 
 .banner-b {
-    background-image: url(../picture/Vectorrr.png);
-    background-repeat: no-repeat;
-    border-radius: 16px;
-    width: 1320px;
-    margin-top: 50px;
-    margin-left: 140px;
-    margin-right: 140px;
-    height: 600px;
+    position: relative;
+    text-align: center;
+    color: white;
 }
 
-.welcome {
-    color: #FFF;
-    font-size: 64px;
-    font-weight: 900;
-    line-height: 88px;
-    letter-spacing: 7.04px;
-    padding: 12px;
+.temp02 {
+    filter: brightness(0.4);
 }
 
-.paragrap-2nd {
-    color: rgba(225, 232, 225, 0.979);
+.img2 {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.font04 {
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    font-size: 70px;
+    color: white;
+    font-weight: 550;
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.font05 {
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    font-size: 70px;
+    color: white;
+    font-weight: 550;
+    top: 45%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.font06 {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: larger;
+    font-weight: 550;
+    color: rgba(237, 66, 4, 0.902);
+    top: 75%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#paragrap-2nd {
+    position: absolute;
     font-size: 18px;
-    font-weight: 400;
-    padding: 195px 495px 100px 126px;
+    color: whitesmoke;
+    top: 60%;
+    left: 33%;
+    transform: translate(-50%, -50%);
 }
+
 
 
 #join {
@@ -300,23 +334,4 @@ body {
 
     font-size: large;
     color: #F00;
-}
-
-footer {
-    background: #070211;
-    width: 1600px;
-    height: 609px;
-    flex-shrink: 0;
-}
-.container-one{
-    display: flex;
-    color: #FFF;
-}
-.font-nine.font-ten{
-    display: flex;
-    justify-content: space-between;
-    color: #FFF;
-}
-.font-ten{
-    text-align: end;
 }
